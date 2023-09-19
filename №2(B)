@@ -1,0 +1,9 @@
+def doble_power (a, b):
+    step = a
+    for i in range(0, b):
+        step = a * a
+    return int(step)
+
+a, b = map (int, input().split())
+print (doble_power(a, b))
+
