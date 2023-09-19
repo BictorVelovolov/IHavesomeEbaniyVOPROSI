@@ -1,0 +1,10 @@
+def Xor (a, b):
+    if a and not b:
+        return True
+    elif b and not a:
+        return True
+    return False
+
+a, b = map (bool, input().split())
+print (Xor(a,b))
+
